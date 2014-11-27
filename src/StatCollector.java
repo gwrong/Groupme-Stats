@@ -376,8 +376,6 @@ public class StatCollector {
 	 */
 	private void postLikeStatistics(Map<String, Integer> result) throws Exception {
 		
-		//temp fix
-		//result.remove("Ryan \"I Love Plager's Nano Penis\" Burns");
  		
 		String url = "https://api.groupme.com/v3/bots/post";
 		URL obj = new URL(url);
